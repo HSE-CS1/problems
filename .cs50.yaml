@@ -1,0 +1,7 @@
+check50:
+  checks:
+    hello world:
+      - run: python3 main.py
+        stdin: fishel
+        stdout: hello fishel
+        exit: 0
